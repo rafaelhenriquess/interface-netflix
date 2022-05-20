@@ -1,0 +1,27 @@
+@media screen and (max-width:700px){
+    header .container{
+        display:flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    main .container .sinopse{
+        display:flex;
+        flex-direction: column;
+        width: 450px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    main .container .sinopse{
+        width:50%
+    }
+}
+
+@media screen and (min-width:1000px){
+    main .Filmes{
+        margin-top: 150px
+    }
+}
